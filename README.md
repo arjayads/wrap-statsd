@@ -25,8 +25,6 @@
 
 ```
 
-
-Ref: http://domnikl.github.io/statsd-php/
 use Plustelecom\Statsd\Statsd;
 
 ...
@@ -35,3 +33,6 @@ Statsd::client()->increment("welcome");
 
 
 ```
+
+
+Ref: http://domnikl.github.io/statsd-php/
