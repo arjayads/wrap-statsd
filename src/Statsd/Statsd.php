@@ -1,6 +1,6 @@
 <?php
 
-namespace Statsd;
+namespace Plustelecom\Statsd;
 
 class Statsd {
 
