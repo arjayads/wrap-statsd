@@ -1,0 +1,24 @@
+{
+    "name": "plus-telecom/statsd",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Arjay Adong",
+            "email": "arjayads@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "domnikl/statsd": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plustelecom\\Statsd\\": "src/Statsd/Statsd"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
+    }
+}
