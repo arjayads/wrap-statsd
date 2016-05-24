@@ -25,6 +25,8 @@
 
 ```
 
+
+Ref: http://domnikl.github.io/statsd-php/
 use Plustelecom\Statsd\Statsd;
 
 ...
