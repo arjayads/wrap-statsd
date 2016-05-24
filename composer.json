@@ -1,6 +1,7 @@
 {
     "name": "plus-telecom/statsd",
     "type": "library",
+    "description": "Statsd Laravel 5 wrapper",
     "authors": [
         {
             "name": "Arjay Adong",
@@ -13,12 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Plustelecom\\Statsd\\": "src/Statsd/Statsd"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0"
+            "Plustelecom\\Statsd\\": "src/Statsd/"
         }
     }
 }
