@@ -6,12 +6,13 @@ class Statsd {
 
     private static $client;
 
-    public function __construct() {
+    public static function init() {
         $connection = new UdpSocket(env('STATSD_HOST', 'localhost'), env('STATSD_PORT', 8125));
         self::$client = new Client($connection, env('STATSD_NAMESPACE', ''));
     }
 
     public static function client(){
+        if (is_null(self::$client)) self::init();
         return self::$client;
     }
 }
