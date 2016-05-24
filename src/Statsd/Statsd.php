@@ -2,6 +2,9 @@
 
 namespace Plustelecom\Statsd;
 
+use Domnikl\Statsd\Client;
+use Domnikl\Statsd\Connection\UdpSocket;
+
 class Statsd {
 
     private static $client;
